@@ -25,7 +25,7 @@ msgstr "%[1]s无效，全部重建"
 msgid "%[1]s is required but %[2]s is currently installed."
 msgstr "%[1] s是必需的，但当前已安装%[2]s。"
 
-#: legacy/builder/builder_utils/utils.go:491
+#: legacy/builder/builder_utils/utils.go:432
 msgid "%[1]s pattern is missing"
 msgstr "%[1]s模式丢失"
 
@@ -154,7 +154,7 @@ msgstr "%[1]s 的替代方案：%[2]s"
 msgid "An error occurred adding prototypes"
 msgstr "添加原型时出错"
 
-#: legacy/builder/container_find_includes.go:116
+#: legacy/builder/container_find_includes.go:117
 msgid "An error occurred detecting libraries"
 msgstr "检测库时出错"
 
@@ -230,7 +230,7 @@ msgstr "可用命令："
 msgid "Binary file to upload."
 msgstr "要上传的二进制文件。"
 
-#: cli/board/list.go:88 cli/board/list.go:126 cli/board/listall.go:87
+#: cli/board/list.go:87 cli/board/list.go:125 cli/board/listall.go:87
 #: cli/board/search.go:85
 msgid "Board Name"
 msgstr "开发板名"
@@ -387,11 +387,11 @@ msgstr "在%s中找不到已编译项目"
 msgid "Compiles Arduino sketches."
 msgstr "编译Arduino项目"
 
-#: legacy/builder/builder.go:78
+#: legacy/builder/builder.go:74
 msgid "Compiling core..."
 msgstr "正在编译内核。。。"
 
-#: legacy/builder/builder.go:72
+#: legacy/builder/builder.go:68
 msgid "Compiling libraries..."
 msgstr "正在编译库。。。"
 
@@ -399,7 +399,7 @@ msgstr "正在编译库。。。"
 msgid "Compiling library \"%[1]s\""
 msgstr "正在编译库%[1]s"
 
-#: legacy/builder/builder.go:67
+#: legacy/builder/builder.go:63
 msgid "Compiling sketch..."
 msgstr "正在编译项目。。。"
 
@@ -428,7 +428,7 @@ msgstr "配置平台"
 msgid "Configuring platform."
 msgstr "配置平台。"
 
-#: cli/board/list.go:184
+#: cli/board/list.go:183
 msgid "Connected"
 msgstr "已连接"
 
@@ -436,7 +436,7 @@ msgstr "已连接"
 msgid "Connected to %s! Press CTRL-C to exit."
 msgstr "已连接到 %s！按 CTRL-C 退出。"
 
-#: cli/board/list.go:88 cli/board/list.go:126
+#: cli/board/list.go:87 cli/board/list.go:125
 msgid "Core"
 msgstr "内核"
 
@@ -533,7 +533,7 @@ msgstr "依赖：%s"
 msgid "Description"
 msgstr "说明"
 
-#: legacy/builder/builder.go:59
+#: legacy/builder/builder.go:55
 msgid "Detecting libraries used..."
 msgstr "正在检测使用的库。。。"
 
@@ -560,7 +560,7 @@ msgstr "保存生成文件的目录。默认为./docs，该目录必须存在。
 msgid "Disable completion description for shells that support it"
 msgstr "禁用支持它的Shell的结束说明"
 
-#: cli/board/list.go:185
+#: cli/board/list.go:184
 msgid "Disconnected"
 msgstr "断开连接"
 
@@ -654,7 +654,7 @@ msgstr "新建项目存档时出错"
 msgid "Error creating sketch: %v"
 msgstr "新建项目时出错：%v"
 
-#: cli/board/list.go:72 cli/board/list.go:81
+#: cli/board/list.go:72 cli/board/list.go:80
 msgid "Error detecting boards: %v"
 msgstr "检测开发板时出错：%v"
 
@@ -760,7 +760,7 @@ msgstr "获取开发板详细信息时出错：%v"
 msgid "Error getting board info from Arduino Cloud"
 msgstr "从Arduino Cloud获取开发板信息时出错"
 
-#: commands/board/list.go:212
+#: commands/board/list.go:228
 msgid "Error getting board list"
 msgstr "获取开发板列表时出错"
 
@@ -885,8 +885,8 @@ msgstr "搜索平台时出错：%v"
 msgid "Error serializing compilation database: %s"
 msgstr "序列化编译数据库时出错：%s"
 
-#: commands/board/list.go:197 commands/board/list.go:200
-#: commands/board/list.go:241
+#: commands/board/list.go:199 commands/board/list.go:202
+#: commands/board/list.go:242
 msgid "Error starting board discoveries"
 msgstr "启动开发板时出错误"
 
@@ -934,7 +934,7 @@ msgstr "升级时出错：%v"
 msgid "Error verifying signature"
 msgstr "验证签名时出错"
 
-#: legacy/builder/container_find_includes.go:364
+#: legacy/builder/container_find_includes.go:365
 msgid "Error while detecting libraries included by %[1]s"
 msgstr "检测%[1]s包含的库时出错"
 
@@ -964,7 +964,7 @@ msgstr "错误：%v不支持命令说明"
 msgid "Error: invalid source code overrides data file: %v"
 msgstr "错误：无效的源代码覆盖了数据文件：%v"
 
-#: cli/board/list.go:88
+#: cli/board/list.go:87
 msgid "Event"
 msgstr "事件"
 
@@ -984,8 +984,8 @@ msgstr "可执行调试"
 msgid "Expected compiled sketch in directory %s, but is a file instead"
 msgstr "应在目录%s中编译项目，但它是一个文件"
 
-#: cli/board/attach.go:40 cli/board/details.go:43 cli/board/list.go:88
-#: cli/board/list.go:126 cli/board/listall.go:87 cli/board/search.go:85
+#: cli/board/attach.go:40 cli/board/details.go:43 cli/board/list.go:87
+#: cli/board/list.go:125 cli/board/listall.go:87 cli/board/search.go:85
 msgid "FQBN"
 msgstr "FQBN"
 
@@ -1095,7 +1095,7 @@ msgstr "已生成脚本"
 msgid "Generates completion scripts for various shells"
 msgstr "已为各种shell生成脚本"
 
-#: legacy/builder/builder.go:64
+#: legacy/builder/builder.go:60
 msgid "Generating function prototypes..."
 msgstr "生成函数原型。。。"
 
@@ -1174,7 +1174,7 @@ msgstr "安装一个或多个内核和相应的工具依赖。"
 msgid "Installs one or more specified libraries into the system."
 msgstr "在系统中安装一个或多个指定的库。"
 
-#: legacy/builder/container_find_includes.go:388
+#: legacy/builder/container_find_includes.go:389
 msgid "Internal error in cache"
 msgstr "缓存中的内部错误"
 
@@ -1328,7 +1328,7 @@ msgstr "库名"
 msgid "License: %s"
 msgstr "许可证：%s"
 
-#: legacy/builder/builder.go:83
+#: legacy/builder/builder.go:79
 msgid "Linking everything together..."
 msgstr "将所有内容链接在一起。。。"
 
@@ -1465,7 +1465,7 @@ msgstr "名：%s"
 msgid "New version"
 msgstr "新版本"
 
-#: cli/board/list.go:116
+#: cli/board/list.go:115
 msgid "No boards found."
 msgstr "没有找到开发板"
 
@@ -1690,7 +1690,7 @@ msgid ""
 "protocol %s"
 msgstr "请指定FQBN。使用协议%s在端口%s上检测到多个可能的端口"
 
-#: cli/board/list.go:88 cli/board/list.go:126
+#: cli/board/list.go:87 cli/board/list.go:125
 msgid "Port"
 msgstr "端口"
 
@@ -1747,7 +1747,7 @@ msgstr "编译器："
 msgid "Property '%s' is undefined"
 msgstr "属性%s未定义"
 
-#: cli/board/list.go:126
+#: cli/board/list.go:125
 msgid "Protocol"
 msgstr "协议"
 
@@ -1951,15 +1951,15 @@ msgstr "跳过最终可执行文件的链接。"
 msgid "Skipping 1200-bps touch reset: no serial port selected!"
 msgstr "跳过1200-bps TOUCH重置：未选择串口！"
 
-#: legacy/builder/builder_utils/utils.go:437
+#: legacy/builder/builder_utils/utils.go:378
 msgid "Skipping archive creation of: %[1]s"
 msgstr "正在跳过以下内容的存档创建：%[1]s"
 
-#: legacy/builder/builder_utils/utils.go:256
+#: legacy/builder/builder_utils/utils.go:200
 msgid "Skipping compile of: %[1]s"
 msgstr "跳过编译：%[1]s"
 
-#: legacy/builder/container_find_includes.go:335
+#: legacy/builder/container_find_includes.go:336
 msgid "Skipping dependencies detection for precompiled library %[1]s"
 msgstr "跳过预编译库%[1]s的依赖检测"
 
@@ -2066,7 +2066,7 @@ msgstr ""
 msgid "Turns on verbose mode."
 msgstr "打开详细模式。"
 
-#: cli/board/list.go:88 cli/board/list.go:126
+#: cli/board/list.go:87 cli/board/list.go:125
 msgid "Type"
 msgstr "类型"
 
@@ -2121,7 +2121,7 @@ msgstr "如果不再使用，卸载一个或多个内核和相应的工具依赖
 msgid "Uninstalls one or more libraries."
 msgstr "卸载一个或多个库。"
 
-#: cli/board/list.go:158
+#: cli/board/list.go:157
 msgid "Unknown"
 msgstr "未知"
 
@@ -2255,7 +2255,7 @@ msgstr "未设置用户目录"
 msgid "Using board '%[1]s' from platform in folder: %[2]s"
 msgstr "正在使用文件夹%[2]s中的平台上的开发板“%[1]s”"
 
-#: legacy/builder/container_find_includes.go:347
+#: legacy/builder/container_find_includes.go:348
 msgid "Using cached library dependencies for file: %[1]s"
 msgstr "使用缓存库文件依赖项：%[1]s"
 
@@ -2280,8 +2280,8 @@ msgstr "使用预编译代码：%[1]s"
 msgid "Using precompiled library in %[1]s"
 msgstr "在%[1]s中使用预编译库"
 
-#: legacy/builder/builder_utils/utils.go:254
-#: legacy/builder/builder_utils/utils.go:460
+#: legacy/builder/builder_utils/utils.go:198
+#: legacy/builder/builder_utils/utils.go:401
 msgid "Using previously compiled file: %[1]s"
 msgstr "使用以前编译的文件：%[1]s"
 
@@ -2411,8 +2411,8 @@ msgid "boardname"
 msgstr "开发板名"
 
 #: arduino/discovery/discovery.go:312 arduino/discovery/discovery.go:335
-#: arduino/discovery/discovery.go:357 arduino/discovery/discovery.go:382
-#: arduino/discovery/discovery.go:401 arduino/discovery/discovery.go:424
+#: arduino/discovery/discovery.go:357 arduino/discovery/discovery.go:392
+#: arduino/discovery/discovery.go:415
 msgid "calling %[1]s: %[2]w"
 msgstr "调用%[1]s: %[2]w"
 
@@ -2466,17 +2466,16 @@ msgid "command '%[1]s' failed: %[2]s"
 msgstr "命令%[1]s失败：%[2]s"
 
 #: arduino/discovery/discovery.go:316 arduino/discovery/discovery.go:339
-#: arduino/discovery/discovery.go:361 arduino/discovery/discovery.go:386
-#: arduino/discovery/discovery.go:405 arduino/discovery/discovery.go:428
+#: arduino/discovery/discovery.go:361 arduino/discovery/discovery.go:396
+#: arduino/discovery/discovery.go:419
 msgid "command failed: %s"
 msgstr "命令失败：%s"
 
 #: arduino/discovery/discovery.go:314 arduino/discovery/discovery.go:318
 #: arduino/discovery/discovery.go:337 arduino/discovery/discovery.go:341
 #: arduino/discovery/discovery.go:359 arduino/discovery/discovery.go:363
-#: arduino/discovery/discovery.go:384 arduino/discovery/discovery.go:388
-#: arduino/discovery/discovery.go:403 arduino/discovery/discovery.go:426
-#: arduino/discovery/discovery.go:430 arduino/monitor/monitor.go:146
+#: arduino/discovery/discovery.go:394 arduino/discovery/discovery.go:417
+#: arduino/discovery/discovery.go:421 arduino/monitor/monitor.go:146
 #: arduino/monitor/monitor.go:152
 msgid "communication out of sync, expected '%[1]s', received '%[2]s'"
 msgstr "通信不同步，应为%[1]s，收到%[2]s"
@@ -2513,7 +2512,7 @@ msgstr "解析项目元数据：%s"
 msgid "dependency '%s' is not available"
 msgstr "依赖%s不可用"
 
-#: legacy/builder/utils/utils.go:474
+#: legacy/builder/utils/utils.go:438
 msgid "destination already exists"
 msgstr "目标已存在"
 
@@ -2525,7 +2524,7 @@ msgstr "目标目录%s已经存在，无法安装"
 msgid "directory doesn't exist: %s"
 msgstr "目录不存在：%s"
 
-#: arduino/discovery/discoverymanager/discoverymanager.go:106
+#: arduino/discovery/discoverymanager/discoverymanager.go:132
 msgid "discovery %[1]s process not started: %[2]w"
 msgstr "发现%[1]s进程未启动：%[2]w"
 
@@ -2828,7 +2827,7 @@ msgstr "库无效"
 msgid "library path does not exist: %s"
 msgstr "库路径不存在：%s"
 
-#: arduino/discovery/discoverymanager/discoverymanager.go:217
+#: arduino/discovery/discoverymanager/discoverymanager.go:250
 msgid "listing ports from discovery %[1]s: %[2]w"
 msgstr "正在从discovery%[1]s列出端口: %[2]w"
 
@@ -2962,11 +2961,11 @@ msgstr "打开board.txt: %s"
 msgid "opening port at 1200bps"
 msgstr "以1200bps的速率打开端口"
 
-#: arduino/security/signatures.go:80
+#: arduino/security/signatures.go:81
 msgid "opening signature file: %s"
 msgstr "打开签名文件：%s"
 
-#: arduino/security/signatures.go:75
+#: arduino/security/signatures.go:76
 msgid "opening target file: %s"
 msgstr "打开目标文件：%s"
 
@@ -3022,7 +3021,7 @@ msgstr "平台未安装"
 msgid "please use --build-property instead."
 msgstr "请改用--build-property。"
 
-#: arduino/discovery/discoverymanager/discoverymanager.go:61
+#: arduino/discovery/discoverymanager/discoverymanager.go:69
 msgid "pluggable discovery already added: %s"
 msgstr "已添加可插入discovery：%s"
 
@@ -3041,10 +3040,6 @@ msgstr "不支持协议版本：请求了%[1]d，获得了%[2]d"
 #: arduino/discovery/discovery.go:320
 msgid "protocol version not supported: requested 1, got %d"
 msgstr "不支持协议版本：请求1，得到%d"
-
-#: arduino/discovery/discoverymanager/discoverymanager.go:189
-msgid "quitting discovery %[1]s: %[2]w"
-msgstr "正在退出discovery%[1]s: %[2]w"
 
 #: arduino/cores/packagemanager/loader.go:79
 msgid "reading %[1]s directory: %[2]s"
@@ -3141,7 +3136,7 @@ msgstr "正在删除工具文件：%s"
 msgid "required version %[1]s not found for platform %[2]s"
 msgstr "找不到平台%[2]s所需的版本%[1]s"
 
-#: arduino/security/signatures.go:71
+#: arduino/security/signatures.go:72
 msgid "retrieving Arduino public keys: %s"
 msgstr "正在检索Arduino密钥：%s"
 
@@ -3173,23 +3168,23 @@ msgstr "项目路径"
 msgid "skipping loading of boards %s: malformed custom board options"
 msgstr "跳过加载开发板%s：格式错误的自定义开发板选项"
 
-#: legacy/builder/utils/utils.go:466
+#: legacy/builder/utils/utils.go:430
 msgid "source is not a directory"
 msgstr "来源不是目录"
 
-#: arduino/discovery/discoverymanager/discoverymanager.go:142
+#: arduino/discovery/discoverymanager/discoverymanager.go:170
 msgid "start syncing discovery %[1]s: %[2]w"
 msgstr "开始同步discovery%[1]s:%[2]w"
 
-#: arduino/discovery/discoverymanager/discoverymanager.go:122
+#: arduino/discovery/discoverymanager/discoverymanager.go:149
 msgid "starting discovery %[1]s: %[2]w"
 msgstr "停止discovery%[1]s: %[2]w"
 
-#: commands/board/list.go:303
+#: commands/board/list.go:306
 msgid "stopping discoveries: %s"
 msgstr "停止discovery：%s"
 
-#: arduino/discovery/discoverymanager/discoverymanager.go:173
+#: arduino/discovery/discoverymanager/discoverymanager.go:202
 msgid "stopping discovery %[1]s: %[2]w"
 msgstr "停止discovery%[1]s:%[2]w"
 
@@ -3214,7 +3209,7 @@ msgid "text section exceeds available space in board"
 msgstr "文本部分超出开发板的可用空间"
 
 #: legacy/builder/container_add_prototypes.go:47
-#: legacy/builder/container_find_includes.go:117
+#: legacy/builder/container_find_includes.go:118
 msgid "the compilation database may be incomplete or inaccurate"
 msgstr "编译数据库可能不完整或不准确"
 

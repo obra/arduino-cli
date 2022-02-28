@@ -29,7 +29,7 @@ msgstr ""
 msgid "%[1]s is required but %[2]s is currently installed."
 msgstr "%[1]s wird benötigt, aber %[2]s ist aktuell installiert."
 
-#: legacy/builder/builder_utils/utils.go:491
+#: legacy/builder/builder_utils/utils.go:432
 msgid "%[1]s pattern is missing"
 msgstr "Das Muster %[1]s fehlt"
 
@@ -160,7 +160,7 @@ msgstr "Alternativen für %[1]s: %[2]s"
 msgid "An error occurred adding prototypes"
 msgstr ""
 
-#: legacy/builder/container_find_includes.go:116
+#: legacy/builder/container_find_includes.go:117
 msgid "An error occurred detecting libraries"
 msgstr "Ein Fehler trat beim erkennen der Bibliotheken auf"
 
@@ -236,7 +236,7 @@ msgstr "Verfügbare Befehle:"
 msgid "Binary file to upload."
 msgstr "Binärdatei zum Hochladen."
 
-#: cli/board/list.go:88 cli/board/list.go:126 cli/board/listall.go:87
+#: cli/board/list.go:87 cli/board/list.go:125 cli/board/listall.go:87
 #: cli/board/search.go:85
 msgid "Board Name"
 msgstr "Board Name"
@@ -393,11 +393,11 @@ msgstr ""
 msgid "Compiles Arduino sketches."
 msgstr "Kompiliert Arduino Sketche"
 
-#: legacy/builder/builder.go:78
+#: legacy/builder/builder.go:74
 msgid "Compiling core..."
 msgstr ""
 
-#: legacy/builder/builder.go:72
+#: legacy/builder/builder.go:68
 msgid "Compiling libraries..."
 msgstr "Bibliotheken werden kompiliert..."
 
@@ -405,7 +405,7 @@ msgstr "Bibliotheken werden kompiliert..."
 msgid "Compiling library \"%[1]s\""
 msgstr ""
 
-#: legacy/builder/builder.go:67
+#: legacy/builder/builder.go:63
 msgid "Compiling sketch..."
 msgstr "Sketch wird kompiliert..."
 
@@ -434,7 +434,7 @@ msgstr ""
 msgid "Configuring platform."
 msgstr ""
 
-#: cli/board/list.go:184
+#: cli/board/list.go:183
 msgid "Connected"
 msgstr "Verbunden"
 
@@ -442,7 +442,7 @@ msgstr "Verbunden"
 msgid "Connected to %s! Press CTRL-C to exit."
 msgstr ""
 
-#: cli/board/list.go:88 cli/board/list.go:126
+#: cli/board/list.go:87 cli/board/list.go:125
 msgid "Core"
 msgstr ""
 
@@ -539,7 +539,7 @@ msgstr "Abhängigkeiten: %s"
 msgid "Description"
 msgstr "Beschreibung"
 
-#: legacy/builder/builder.go:59
+#: legacy/builder/builder.go:55
 msgid "Detecting libraries used..."
 msgstr "Verwendete Bibliotheken erkennen..."
 
@@ -568,7 +568,7 @@ msgstr ""
 msgid "Disable completion description for shells that support it"
 msgstr ""
 
-#: cli/board/list.go:185
+#: cli/board/list.go:184
 msgid "Disconnected"
 msgstr "Verbindung getrennt"
 
@@ -662,7 +662,7 @@ msgstr ""
 msgid "Error creating sketch: %v"
 msgstr ""
 
-#: cli/board/list.go:72 cli/board/list.go:81
+#: cli/board/list.go:72 cli/board/list.go:80
 msgid "Error detecting boards: %v"
 msgstr ""
 
@@ -768,7 +768,7 @@ msgstr ""
 msgid "Error getting board info from Arduino Cloud"
 msgstr ""
 
-#: commands/board/list.go:212
+#: commands/board/list.go:228
 msgid "Error getting board list"
 msgstr ""
 
@@ -893,8 +893,8 @@ msgstr ""
 msgid "Error serializing compilation database: %s"
 msgstr ""
 
-#: commands/board/list.go:197 commands/board/list.go:200
-#: commands/board/list.go:241
+#: commands/board/list.go:199 commands/board/list.go:202
+#: commands/board/list.go:242
 msgid "Error starting board discoveries"
 msgstr ""
 
@@ -942,7 +942,7 @@ msgstr ""
 msgid "Error verifying signature"
 msgstr ""
 
-#: legacy/builder/container_find_includes.go:364
+#: legacy/builder/container_find_includes.go:365
 msgid "Error while detecting libraries included by %[1]s"
 msgstr ""
 
@@ -972,7 +972,7 @@ msgstr ""
 msgid "Error: invalid source code overrides data file: %v"
 msgstr ""
 
-#: cli/board/list.go:88
+#: cli/board/list.go:87
 msgid "Event"
 msgstr ""
 
@@ -992,8 +992,8 @@ msgstr ""
 msgid "Expected compiled sketch in directory %s, but is a file instead"
 msgstr ""
 
-#: cli/board/attach.go:40 cli/board/details.go:43 cli/board/list.go:88
-#: cli/board/list.go:126 cli/board/listall.go:87 cli/board/search.go:85
+#: cli/board/attach.go:40 cli/board/details.go:43 cli/board/list.go:87
+#: cli/board/list.go:125 cli/board/listall.go:87 cli/board/search.go:85
 msgid "FQBN"
 msgstr ""
 
@@ -1101,7 +1101,7 @@ msgstr ""
 msgid "Generates completion scripts for various shells"
 msgstr ""
 
-#: legacy/builder/builder.go:64
+#: legacy/builder/builder.go:60
 msgid "Generating function prototypes..."
 msgstr ""
 
@@ -1182,7 +1182,7 @@ msgstr ""
 msgid "Installs one or more specified libraries into the system."
 msgstr ""
 
-#: legacy/builder/container_find_includes.go:388
+#: legacy/builder/container_find_includes.go:389
 msgid "Internal error in cache"
 msgstr ""
 
@@ -1336,7 +1336,7 @@ msgstr ""
 msgid "License: %s"
 msgstr ""
 
-#: legacy/builder/builder.go:83
+#: legacy/builder/builder.go:79
 msgid "Linking everything together..."
 msgstr ""
 
@@ -1474,7 +1474,7 @@ msgstr ""
 msgid "New version"
 msgstr ""
 
-#: cli/board/list.go:116
+#: cli/board/list.go:115
 msgid "No boards found."
 msgstr ""
 
@@ -1699,7 +1699,7 @@ msgid ""
 "protocol %s"
 msgstr ""
 
-#: cli/board/list.go:88 cli/board/list.go:126
+#: cli/board/list.go:87 cli/board/list.go:125
 msgid "Port"
 msgstr "Port"
 
@@ -1756,7 +1756,7 @@ msgstr ""
 msgid "Property '%s' is undefined"
 msgstr ""
 
-#: cli/board/list.go:126
+#: cli/board/list.go:125
 msgid "Protocol"
 msgstr ""
 
@@ -1963,15 +1963,15 @@ msgstr ""
 msgid "Skipping 1200-bps touch reset: no serial port selected!"
 msgstr ""
 
-#: legacy/builder/builder_utils/utils.go:437
+#: legacy/builder/builder_utils/utils.go:378
 msgid "Skipping archive creation of: %[1]s"
 msgstr ""
 
-#: legacy/builder/builder_utils/utils.go:256
+#: legacy/builder/builder_utils/utils.go:200
 msgid "Skipping compile of: %[1]s"
 msgstr ""
 
-#: legacy/builder/container_find_includes.go:335
+#: legacy/builder/container_find_includes.go:336
 msgid "Skipping dependencies detection for precompiled library %[1]s"
 msgstr ""
 
@@ -2074,7 +2074,7 @@ msgstr ""
 msgid "Turns on verbose mode."
 msgstr ""
 
-#: cli/board/list.go:88 cli/board/list.go:126
+#: cli/board/list.go:87 cli/board/list.go:125
 msgid "Type"
 msgstr "Typ"
 
@@ -2129,7 +2129,7 @@ msgstr ""
 msgid "Uninstalls one or more libraries."
 msgstr ""
 
-#: cli/board/list.go:158
+#: cli/board/list.go:157
 msgid "Unknown"
 msgstr ""
 
@@ -2263,7 +2263,7 @@ msgstr ""
 msgid "Using board '%[1]s' from platform in folder: %[2]s"
 msgstr ""
 
-#: legacy/builder/container_find_includes.go:347
+#: legacy/builder/container_find_includes.go:348
 msgid "Using cached library dependencies for file: %[1]s"
 msgstr ""
 
@@ -2289,8 +2289,8 @@ msgstr ""
 msgid "Using precompiled library in %[1]s"
 msgstr ""
 
-#: legacy/builder/builder_utils/utils.go:254
-#: legacy/builder/builder_utils/utils.go:460
+#: legacy/builder/builder_utils/utils.go:198
+#: legacy/builder/builder_utils/utils.go:401
 msgid "Using previously compiled file: %[1]s"
 msgstr "Zuvor kompilierte Datei wird verwendet: %[1]s"
 
@@ -2424,8 +2424,8 @@ msgid "boardname"
 msgstr ""
 
 #: arduino/discovery/discovery.go:312 arduino/discovery/discovery.go:335
-#: arduino/discovery/discovery.go:357 arduino/discovery/discovery.go:382
-#: arduino/discovery/discovery.go:401 arduino/discovery/discovery.go:424
+#: arduino/discovery/discovery.go:357 arduino/discovery/discovery.go:392
+#: arduino/discovery/discovery.go:415
 msgid "calling %[1]s: %[2]w"
 msgstr ""
 
@@ -2479,17 +2479,16 @@ msgid "command '%[1]s' failed: %[2]s"
 msgstr ""
 
 #: arduino/discovery/discovery.go:316 arduino/discovery/discovery.go:339
-#: arduino/discovery/discovery.go:361 arduino/discovery/discovery.go:386
-#: arduino/discovery/discovery.go:405 arduino/discovery/discovery.go:428
+#: arduino/discovery/discovery.go:361 arduino/discovery/discovery.go:396
+#: arduino/discovery/discovery.go:419
 msgid "command failed: %s"
 msgstr ""
 
 #: arduino/discovery/discovery.go:314 arduino/discovery/discovery.go:318
 #: arduino/discovery/discovery.go:337 arduino/discovery/discovery.go:341
 #: arduino/discovery/discovery.go:359 arduino/discovery/discovery.go:363
-#: arduino/discovery/discovery.go:384 arduino/discovery/discovery.go:388
-#: arduino/discovery/discovery.go:403 arduino/discovery/discovery.go:426
-#: arduino/discovery/discovery.go:430 arduino/monitor/monitor.go:146
+#: arduino/discovery/discovery.go:394 arduino/discovery/discovery.go:417
+#: arduino/discovery/discovery.go:421 arduino/monitor/monitor.go:146
 #: arduino/monitor/monitor.go:152
 msgid "communication out of sync, expected '%[1]s', received '%[2]s'"
 msgstr ""
@@ -2526,7 +2525,7 @@ msgstr ""
 msgid "dependency '%s' is not available"
 msgstr ""
 
-#: legacy/builder/utils/utils.go:474
+#: legacy/builder/utils/utils.go:438
 msgid "destination already exists"
 msgstr ""
 
@@ -2538,7 +2537,7 @@ msgstr ""
 msgid "directory doesn't exist: %s"
 msgstr ""
 
-#: arduino/discovery/discoverymanager/discoverymanager.go:106
+#: arduino/discovery/discoverymanager/discoverymanager.go:132
 msgid "discovery %[1]s process not started: %[2]w"
 msgstr ""
 
@@ -2841,7 +2840,7 @@ msgstr ""
 msgid "library path does not exist: %s"
 msgstr ""
 
-#: arduino/discovery/discoverymanager/discoverymanager.go:217
+#: arduino/discovery/discoverymanager/discoverymanager.go:250
 msgid "listing ports from discovery %[1]s: %[2]w"
 msgstr ""
 
@@ -2975,11 +2974,11 @@ msgstr ""
 msgid "opening port at 1200bps"
 msgstr ""
 
-#: arduino/security/signatures.go:80
+#: arduino/security/signatures.go:81
 msgid "opening signature file: %s"
 msgstr ""
 
-#: arduino/security/signatures.go:75
+#: arduino/security/signatures.go:76
 msgid "opening target file: %s"
 msgstr ""
 
@@ -3035,7 +3034,7 @@ msgstr ""
 msgid "please use --build-property instead."
 msgstr ""
 
-#: arduino/discovery/discoverymanager/discoverymanager.go:61
+#: arduino/discovery/discoverymanager/discoverymanager.go:69
 msgid "pluggable discovery already added: %s"
 msgstr ""
 
@@ -3053,10 +3052,6 @@ msgstr ""
 
 #: arduino/discovery/discovery.go:320
 msgid "protocol version not supported: requested 1, got %d"
-msgstr ""
-
-#: arduino/discovery/discoverymanager/discoverymanager.go:189
-msgid "quitting discovery %[1]s: %[2]w"
 msgstr ""
 
 #: arduino/cores/packagemanager/loader.go:79
@@ -3154,7 +3149,7 @@ msgstr ""
 msgid "required version %[1]s not found for platform %[2]s"
 msgstr ""
 
-#: arduino/security/signatures.go:71
+#: arduino/security/signatures.go:72
 msgid "retrieving Arduino public keys: %s"
 msgstr ""
 
@@ -3186,23 +3181,23 @@ msgstr ""
 msgid "skipping loading of boards %s: malformed custom board options"
 msgstr ""
 
-#: legacy/builder/utils/utils.go:466
+#: legacy/builder/utils/utils.go:430
 msgid "source is not a directory"
 msgstr ""
 
-#: arduino/discovery/discoverymanager/discoverymanager.go:142
+#: arduino/discovery/discoverymanager/discoverymanager.go:170
 msgid "start syncing discovery %[1]s: %[2]w"
 msgstr ""
 
-#: arduino/discovery/discoverymanager/discoverymanager.go:122
+#: arduino/discovery/discoverymanager/discoverymanager.go:149
 msgid "starting discovery %[1]s: %[2]w"
 msgstr ""
 
-#: commands/board/list.go:303
+#: commands/board/list.go:306
 msgid "stopping discoveries: %s"
 msgstr ""
 
-#: arduino/discovery/discoverymanager/discoverymanager.go:173
+#: arduino/discovery/discoverymanager/discoverymanager.go:202
 msgid "stopping discovery %[1]s: %[2]w"
 msgstr ""
 
@@ -3227,7 +3222,7 @@ msgid "text section exceeds available space in board"
 msgstr ""
 
 #: legacy/builder/container_add_prototypes.go:47
-#: legacy/builder/container_find_includes.go:117
+#: legacy/builder/container_find_includes.go:118
 msgid "the compilation database may be incomplete or inaccurate"
 msgstr ""
 
